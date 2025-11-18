@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -12,7 +19,14 @@ nav a {
 
 h1 {
     color: darkblue;
+}    
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 150px
 }
+
 
 img {
     width: 105px;
@@ -26,7 +40,7 @@ p {
     padding: 0;
 }
 main {
-    max-width: 600px;
+    max-width:400px;
 }
 
 aside {
@@ -37,6 +51,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -44,11 +59,12 @@ aside img{
     height: auto;
 }
 main img{
-    width: 140px;
+    width: 75px;
     height: auto;
-    border: 1px solid black; 
+    border: 2px solid rgb(239, 185, 239); 
     padding: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    float: right;
 }
 
 p{padding: 0;}
@@ -57,4 +73,11 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* insert the  */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f7a1eb
+
 }
